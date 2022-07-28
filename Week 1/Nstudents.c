@@ -39,6 +39,7 @@ void searchByRoll(struct student stu[], int stu_number){
         if(rollNo==stu[i].roll){
             printf("\nName of Student %d: %s",i+1, stu[i].name);
             printf("\nRoll No: %d",stu[i].roll);
+            printf("\nMarks of Student %d: %d\t%d\t%d\t%d\t%d",i+1,stu[i].m.mark1,stu[i].m.mark2,stu[i].m.mark3,stu[i].m.mark4,stu[i].m.mark5);
             printf("\nTotal Marks: %d",stu[i].totalmarks);
             printf("\nPercentage: %.2f",stu[i].percentage);
         }
