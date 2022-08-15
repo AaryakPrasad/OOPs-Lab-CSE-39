@@ -52,5 +52,5 @@ int main()
     cout << "Gross Salary of employee " << i << ": " << e[i].gross_salary << endl;
     cout << endl << endl;
   }
-
+  return 0;
 }
