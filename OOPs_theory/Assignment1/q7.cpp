@@ -35,9 +35,7 @@ int main()
     cin >> n;
     bill obj[n];
     for(int i=0;i<n;i++)
-    {
         obj[i].getdata();
-    }
     cout << "Sl.No.\tCode\tName\tPrice\tQuantity\tTotal" << endl;
     cout << "-----------------------------------------------------------------------------"<<endl;
     for(int i=0;i<n;i++)

@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 struct date
-        {
-            int day;
-            int month;
-            int year;
-        };
+    {
+        int day;
+        int month;
+        int year;
+    };
 class age
 {
     private:

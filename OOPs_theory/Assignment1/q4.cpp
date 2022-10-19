@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
 class student
-    {
-        private:
-            int id;
-            char name[50];
-            int marks[6];
-            int tot_marks;
-        public:
-            void getdata();
-            void showdata();
-            void calculate_tot_marks();
-    };
+{
+    private:
+        int id;
+        char name[50];
+        int marks[6];
+        int tot_marks;
+    public:
+        void getdata();
+        void showdata();
+        void calculate_tot_marks();
+};
 void student::getdata()
 {
     cout << "Enter roll number: ";
@@ -41,6 +41,7 @@ int main()
 {
     student s1;
     s1.getdata();
+    s1.calculate_tot_marks();
     s1.showdata(); 
     return 0;  
 }
