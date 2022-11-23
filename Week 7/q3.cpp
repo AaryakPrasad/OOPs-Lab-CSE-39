@@ -77,7 +77,6 @@ int main()
     r.sports::getdata();
     r.student::display();
     r.displaymarks();
-    r.student::display();
     r.percentage();
     return 0;
 }
